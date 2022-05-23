@@ -57,6 +57,7 @@
   background-color: #0ea5e9;
   gap: 15px;
   width: 75px;
+  font-weight: bold;
 }
 
 .header-buttons {
@@ -72,29 +73,42 @@
 
 .Projects {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.1fr 1fr;
   background-color: #e5e7eb;
+  gap: 15px;
 }
 
 .announcements {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
 .socials {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
 .your-projects {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .projects-container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .card {
@@ -102,9 +116,44 @@
   grid-row: 2 / 4;
 }
 
-.search-button {
+.search-button,
+.notifications-icon {
   height: 30px;
   width: 30px;
   background-color: white;
   border: none;
+}
+
+.notifications {
+  background-color: white;
+  border: none;
+}
+
+.search-bar {
+  border-radius: 20px;
+  border: none;
+  background-color: #e5e7eb;
+}
+
+.trending-container {
+  display: grid;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.announcements-container {
+  background-color: white;
+  border-radius: 15px;
+  height: 350px;
+  width: 350px;
+  /* align-items: center;
+  justify-content: center; */
+}
+.trends {
+  background-color: white;
+  border-radius: 15px;
+  height: 350px;
+  width: 350px;
+  /* align-items: center;
+  justify-content: center; */
 }
