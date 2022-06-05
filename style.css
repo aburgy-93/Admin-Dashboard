@@ -224,6 +224,7 @@ body {
   border-radius: 10px;
   background-color: white;
   font-size: 15px;
+  border-left: 10px solid #9d6600;
 }
 
 .star,
@@ -244,12 +245,12 @@ body {
   grid-row-end: 4;
 }
 
-.empty {
+/* .empty {
   background-color: #9d6600;
   grid-row-start: 1;
   grid-row-end: 4;
   border-radius: 5px;
-}
+} */
 
 .title {
   grid-column-start: 3;
