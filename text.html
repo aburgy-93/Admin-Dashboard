@@ -12,66 +12,99 @@
     <div class="container">
       <nav class="sidebar">
         <div class="dashboard">
-          <img class="home" src="images/dashboard.png" />
-          <div class="logo">Dashoboard</div>
+          <img class="dashboard-logo" src="images/dashboard.png" />
+          <div class="logo">Dashboard</div>
         </div>
 
         <div class="sidebar-buttons">
-          <div class="sidebar-link">
-            <img class="home" src="images/home-white.png" />
-            <div>Home</div>
-          </div>
-          <div class="sidebar-link">
-            <img class="profile" src="images/account-details.png" />
-            <div>Profile</div>
-          </div>
-          <div class="sidebar-link">
-            <img class="messages" src="images/message.png" />
-            <div>Messages</div>
-          </div>
-          <div class="sidebar-link">
-            <img class="history" src="images/clock.png" />
-            <div>History</div>
-          </div>
-          <div class="sidebar-link">
-            <img class="tasks" src="images/tasks.png" />
-            <div>Tasks</div>
-          </div>
-          <div class="sidebar-link">
-            <img class="communities" src="images/communities.png" />
-            <div>Communities</div>
-          </div>
+          <img class="home" src="images/home-white.png" />
+          <div id="dashboard-name">Home</div>
+
+          <img class="profile" src="images/account-details.png" />
+          <div id="dashboard-name">Profile</div>
+
+          <img class="messages" src="images/message.png" />
+          <div id="dashboard-name">Messages</div>
+
+          <img class="history" src="images/clock.png" />
+          <div id="dashboard-name">History</div>
+
+          <img class="tasks" src="images/tasks.png" />
+          <div id="dashboard-name">Tasks</div>
+
+          <img class="communities" src="images/communities.png" />
+          <div id="dashboard-name">Communities</div>
         </div>
 
         <div class="settings-buttons">
-          <div class="settings-sidebar">
-            <img class="settings" src="images/settings.png" />
-            <div>Settings</div>
-          </div>
-          <div class="settings-sidebar">
-            <img class="support" src="images/help-box.png" />
-            <div>Support</div>
-          </div>
-          <div class="settings-sidebar">
-            <img class="privacy" src="images/privacy.png" />
-            <div>Privacy</div>
-          </div>
+          <img class="settings" src="images/settings.png" />
+          <div id="dashboard-name">Settings</div>
+
+          <img class="support" src="images/help-box.png" />
+          <div id="dashboard-name">Support</div>
+
+          <img class="privacy" src="images/privacy.png" />
+          <div id="dashboard-name">Privacy</div>
         </div>
       </nav>
 
-      <header class="header">test</header>
+      <header class="header">
+        <div class="topNav">
+          <div class="search">
+            <img src="images/search.svg" alt="" class="searchIcon" />
+          </div>
 
+          <input type="text" class="searchbar" />
+        </div>
+        <div class="socials">
+          <img src="images/notifications.svg" alt="" class="notifications" />
+          <img src="images/garfield.png" alt="" class="profilePic" />
+          <h3 class="profileName">Garfield T. Cat</h3>
+        </div>
+        <div class="bottomNav">
+          <img src="images/garfield.png" alt="" class="pfp" />
+          <div class="profileName">
+            <h4>Hi there,</h4>
+            <h1>Garfield The Cat</h1>
+          </div>
+        </div>
+
+        <div class="profileButtons">
+          <button class="new">New</button>
+          <button class="upload">Upload</button>
+          <button class="share">Share</button>
+        </div>
+      </header>
+
+      
       <div class="projects">
-        <h3 class="your-projects">Your Projects</h3>
-
+        <h3>Your Projects</h3>
         <div class="projects-container">
           <div class="card">
-            <h4 class="title">Super Cool Project</h4>
+            <div class="top">
+              <h4 class="title">Super Cool Project</h4>
             <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
+            </div>
+            
+            <div class="icon-container">
+              <img class="icons" src="images/star.png" />
+              <img class="icons" src="images/eye.png" />
+              <img class="icons" src="images/source-fork.png" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="top">
+              <h4 class="title">Super Cool Project</h4>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+            </div>
             <div class="icon-container">
               <img class="star" src="images/star.png" />
               <img class="eye" src="images/eye.png" />
@@ -79,12 +112,14 @@
             </div>
           </div>
           <div class="card">
-            <h4 class="title">Super Cool Project</h4>
+            <div class="top">
+              <h4 class="title">Super Cool Project</h4>
             <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
+            </div>
             <div class="icon-container">
               <img class="star" src="images/star.png" />
               <img class="eye" src="images/eye.png" />
@@ -92,12 +127,14 @@
             </div>
           </div>
           <div class="card">
-            <h4 class="title">Super Cool Project</h4>
+            <div class="top">
+              <h4 class="title">Super Cool Project</h4>
             <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
+            </div>
             <div class="icon-container">
               <img class="star" src="images/star.png" />
               <img class="eye" src="images/eye.png" />
@@ -105,12 +142,14 @@
             </div>
           </div>
           <div class="card">
-            <h4 class="title">Super Cool Project</h4>
+            <div class="top">
+              <h4 class="title">Super Cool Project</h4>
             <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
+            </div>
             <div class="icon-container">
               <img class="star" src="images/star.png" />
               <img class="eye" src="images/eye.png" />
@@ -118,25 +157,14 @@
             </div>
           </div>
           <div class="card">
-            <h4 class="title">Super Cool Project</h4>
+            <div class="top">
+              <h4 class="title">Super Cool Project</h4>
             <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="icon-container">
-              <img class="star" src="images/star.png" />
-              <img class="eye" src="images/eye.png" />
-              <img class="fork" src="images/source-fork.png" />
             </div>
-          </div>
-          <div class="card">
-            <h4 class="title">Super Cool Project</h4>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
             <div class="icon-container">
               <img class="star" src="images/star.png" />
               <img class="eye" src="images/eye.png" />
@@ -172,9 +200,9 @@
         </div>
 
         <h3 class="trending">Trending</h3>
-        <div class="socials">
+        <div class="socialsDiv">
           <div class="profile-div">
-            <!-- <img class="pfp" src="images/jon.png"></img> -->
+            <img class="pfp" src="images/jon.png"></img>
             <div class="profile">
               <p class="name">@Jon</p>
               <p class="user-projects">World Peace Builder</p>
@@ -182,7 +210,7 @@
           </div>
 
           <div class="profile-div">
-            <!-- <img class="pfp" src="images/pooky.png" /> -->
+            <img class="pfp" src="images/pooky.png" />
             <div class="profile">
               <p class="name">@Pooky</p>
               <p>Super Cool Project</p>
@@ -190,7 +218,7 @@
           </div>
 
           <div class="profile-div">
-            <!-- <img class="pfp" src="images/arlene-modified(1).png" /> -->
+            <img class="pfp" src="images/arlene-modified(1).png" />
             <div class="profile">
               <p class="name">@Arlene</p>
               <p>Life Changing App</p>
@@ -198,7 +226,7 @@
           </div>
 
           <div class="profile-div">
-            <!-- <img class="pfp" src="images/odie.png" /> -->
+            <img class="pfp" src="images/odie.png" />
             <div class="profile">
               <p class="name">Odie</p>
               <p>No Traffic Maker</p>
